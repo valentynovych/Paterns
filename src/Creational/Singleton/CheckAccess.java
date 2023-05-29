@@ -14,5 +14,7 @@ public class CheckAccess {
         System.out.println(superAdmin1);
         System.out.println(superAdmin2);
 
+        System.out.println("Створено екземплярів класу SuperAdmin : " + SuperAdmin.getCounter());
+
     }
 }

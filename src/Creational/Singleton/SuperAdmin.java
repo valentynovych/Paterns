@@ -14,4 +14,7 @@ public class SuperAdmin {
         return superAdmin;
     }
 
+    public static int getCounter() {
+        return counter;
+    }
 }
