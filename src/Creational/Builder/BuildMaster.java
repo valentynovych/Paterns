@@ -1,6 +1,6 @@
 package Creational.Builder;
 
-public class Director {
+public class BuildMaster {
     TableBuilder tableBuilder;
 
     public void setTableBuilder(TableBuilder tableBuilder) {
