@@ -1,13 +1,13 @@
 package Creational.Builder;
 
 public class BuildMaster {
-    TableBuilder tableBuilder;
+    private TableBuilder tableBuilder;
 
     public void setTableBuilder(TableBuilder tableBuilder) {
         this.tableBuilder = tableBuilder;
     }
 
-    Table buildTable(){
+    public Table buildTable(){
         tableBuilder.createTable();
         tableBuilder.buildTableTop();
         tableBuilder.buildMaterial();
