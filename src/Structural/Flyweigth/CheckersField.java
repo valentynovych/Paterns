@@ -17,7 +17,7 @@ public class CheckersField {
 
         Random random = new Random();
         for (Checker checker : checkerList){
-            checker.position(random.nextInt(10), random.nextInt(20));
+            checker.position(random.nextInt(10), random.nextInt(10));
         }
     }
 }
