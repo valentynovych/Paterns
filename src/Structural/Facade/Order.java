@@ -5,6 +5,7 @@ public class Order {
 
         Table table = new Table();
         table.makeTable("Wood");
+        System.out.println(" ");
         table.makeTable("Metal");
     }
 }
