@@ -1,11 +1,10 @@
 package Structural.Composite;
 
-import java.io.Console;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ToolBox implements Tool {
-    private List<Tool> tools = new ArrayList<>();
+    private final List<Tool> tools = new ArrayList<>();
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_GREEN = "\u001B[32m";
