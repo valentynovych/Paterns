@@ -3,7 +3,7 @@ package Creational.Factory_method;
 public class Main {
     public static void main(String[] args) {
 
-        RepairmenFactory repairmenFactory = createRepairmenBySpecialty("Appliance"); //Electric || Plumbing || Appliance
+        RepairmenFactory repairmenFactory = createRepairmenBySpecialty("Electric"); //Electric || Plumbing || Appliance
         Repairman repairman = repairmenFactory.createRepairmen();
         repairman.repair();
     }

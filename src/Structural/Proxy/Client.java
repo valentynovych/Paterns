@@ -33,7 +33,6 @@ public class Client {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Please entre number action (1-3) or 0 for exit");
                     break;
              }
         }  while (action < 1) ;

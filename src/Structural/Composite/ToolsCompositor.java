@@ -32,7 +32,7 @@ public class ToolsCompositor extends ToolBox {
         toolBox2.addTool(tool9);
 
         toolBox.addTool(toolBox1);
-        toolBox1.addTool(toolBox2);
+        toolBox.addTool(toolBox2);
 
         toolBox.take();
     }
