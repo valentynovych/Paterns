@@ -13,10 +13,10 @@ public abstract class Updater {
     }
 
     public void updateManager(String message, int level){
-        if (level == severity){
+        if (level <= severity){
             update(message);
         }
-        if (upSeverity != null){
+        if (upSeverity != null && level > severity){
             upSeverity.updateManager(message, level);
         }
     }
