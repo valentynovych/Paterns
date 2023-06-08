@@ -16,7 +16,7 @@ public class GrowthSort implements Sorting {
             }
         }
 
-        for (int elem : array){
+        for (int elem : array) {
             System.out.print(elem + ", ");
         }
 

@@ -16,7 +16,7 @@ public class DecreaseSort implements Sorting {
             }
         }
 
-        for (int elem : array){
+        for (int elem : array) {
             System.out.print(elem + ", ");
         }
     }

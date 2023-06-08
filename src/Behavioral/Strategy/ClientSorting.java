@@ -3,7 +3,7 @@ package Behavioral.Strategy;
 public class ClientSorting {
     public static void main(String[] args) {
         SortingStrategy sortingStrategy = new SortingStrategy();
-        int[] array = new int[] {5,1,2,4,9,6,8};
+        int[] array = new int[]{5, 1, 2, -4, 9, 6, 8};
 
         System.out.println("Start sort array on growth");
         sortingStrategy.setStrategy(new GrowthSort());
